@@ -114,13 +114,6 @@ pytest tests/test_integration.py
 
 GitHub Actions runs unit tests and quick integration test on every PR.
 
-## Ethics & Compliance
-
-- PII redaction implemented (see `code/agents/privacy.py`)
-- Audit logging for all decisions and explanations
-- MiFID II / Basel alignment checklist in `ethics/`
-- Human study consent forms and rubrics in `ethics/`
-
 ## Reproducibility
 
 See `reproducibility-checklist.md` for full details on:
@@ -128,29 +121,3 @@ See `reproducibility-checklist.md` for full details on:
 - Environment pinning
 - Log replay capability
 - Statistical test procedures
-
-## Papers
-
-- `paper_ml/main.pdf` - ML conference format (ICML/NeurIPS style)
-- `paper_practitioner/main.pdf` - Regulatory/practitioner format
-
-Both PDFs compiled from experiments with real results (no placeholders).
-
-## License
-
-MIT License - see LICENSE file
-
-## Citation
-
-```bibtex
-@article{xai_finance_agents_2026,
-  title={Explainable AI Agents for Transparent Financial Decision-Making},
-  author={Research Team},
-  journal={arXiv preprint},
-  year={2026}
-}
-```
-
-## Contact
-
-For questions about implementation or experiments, see CONTRIBUTING.md
