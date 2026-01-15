@@ -1,4 +1,4 @@
-version: '3.8'
+version: "3.8"
 
 services:
   xai-finance:
@@ -13,6 +13,6 @@ services:
       - EXPERIMENT_MODE=quick
       - DETERMINISTIC_SEED=42
     ports:
-      - "8888:8888"  # Jupyter
-      - "5000:5000"  # Flask UI
+      - "8888:8888" # Jupyter
+      - "5000:5000" # Flask UI
     command: /bin/bash
